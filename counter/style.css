@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.page1 {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(55, 50, 50);
+}
+
+.tweaks {
+    display: flex;
+    gap: 10px;
+}
+
+.page1 button {
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.inc {
+    background-color: teal;
+    color: white;
+}
+
+.dec {
+    background-color: tomato;
+    color: white;
+}
+
+.page1 h1 {
+    font-size: 10rem;
+}
