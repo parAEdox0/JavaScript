@@ -1,0 +1,10 @@
+@media(max-width:1024px){
+    .hero {
+        column-count: 5;
+    }
+    .hero img {
+        width: 18vw;
+        border-radius: 17px;
+        margin-bottom: 13px;
+    }
+}

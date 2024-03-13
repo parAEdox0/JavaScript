@@ -18,6 +18,7 @@ let blue = 0;
 
 function changeBackground() {
     background.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`
+    
 }
 
 function updateRed() {
