@@ -12,15 +12,13 @@ html, body {
     overflow-x: hidden;
 }
 
-
-.page1 {
-    min-height: 100vh;
+.main {
     position: relative;
-    z-index: 1;
+    min-height: 100vh;    
 }
 
 .nav {
-    z-index: 15;
+    z-index: 5;
     background-color: white;
     position: fixed;
     display: flex;
@@ -28,7 +26,7 @@ html, body {
     align-items: center;
     padding: 0 20px;
     height: 12vh;
-    width: 100vw;
+    width: 99.4vw;
 }
 
 .nav img {
@@ -94,42 +92,65 @@ img:nth-child(6){
     margin-left: -10px;
 }
 
-.hero {
-    position: relative;
-    z-index: -2;
-    width: 100%;
+.overlay {
+    display: none;
+    height: 100%;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.726);
+    z-index: 2;
+    position: absolute;
     top: 90px;
-    padding: 10px 15px;
+    left: 0;
+}
+
+.hero {
+    z-index: 1;
+    position: relative;
+    top: 90px;
+    left: 0;
+    min-height: 100vh;
+    width: 100vw;
     column-count: 6;
-    column-gap: 15px;
-}
-
-img {
-    z-index: -2;
-}
-
-.hero div {
-    z-index: -2;
-}
-
-.heroImage {
-    z-index: -2;
+    padding: 0 10px;
 }
 
 .hero img {
-    z-index: -30;
-    cursor: pointer;
-    width: 15vw;
+    max-width: 15.5vw;
+    margin-bottom: 11px;
     border-radius: 20px;
-    margin-bottom: 15px;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
+.find {
+    display: none;
+    z-index: 4;
+    position: fixed;
+    top: 87px;
+    left: 21%;
+    min-height: 5vh;
+    width: 65vw;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.findInput {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    /* background-color: black; */
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(110, 106, 106, 0.384);
+    height: 100px;
+    border-radius: 20px;
 }
