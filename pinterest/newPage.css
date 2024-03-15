@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    min-height: 100vh;    
+}
+
+.nav {
+    z-index: 5;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 12vh;
+    width: 99.4vw;
+}
+
+.nav img {
+    height: 30px;
+}
+
+.home ul {
+    cursor: pointer;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.bgBlack {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 50%;
+    width: 65vw;
+    background-color: #E1E1E1;
+    border-radius: 20px;
+}
+
+.searchLeft {
+    display: flex;
+    gap: 10px;
+}
+
+.search input {
+    width: 55vw;
+    border: none;
+    background-color: #E1E1E1;
+}
+
+.search input:focus {
+    border: none;
+    outline: none;
+}
+
+.nav > img {
+    height: 45px;
+}
+
+/* .riTwo {
+    margin-left: -20px;
+} */
+
+img:nth-child(6){
+    height: 30px;
+}
+
+.ri-arrow-down-s-line {
+    font-size: 20px;
+    color: #767676;
+    margin-left: -10px;
+}
+
+.homeContainer {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.homeContainer img {
+    height: 40px;
+}
+
+.profileContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profileContainer img {
+    height: 40px;
+}
+
+.heroNewPage {
+    position: relative;
+    top: 60px;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroNewPage img {
+    height: 70vh;
+    border-radius: 30px;
+}
+
+.heroNewPageImg {
+    position: relative;
+}
+

@@ -48,17 +48,17 @@ const arrayOfData = [
     { name: "Headphone", image: "https://i.pinimg.com/564x/2e/b8/72/2eb872769a1726d4ed6b433f4f31b3b5.jpg"}
 ]
 
-function showTheCards() {
-    var clutter = ""
-    arrayOfData.forEach((obj) => {
-        clutter += `<div class="heroImg"><img src="${obj.image}"
-        alt=""></div>`
-    })
-    // console.log(clutter)
-    hero.innerHTML = clutter
-}
+// function showTheCards() {
+//     var clutter = ""
+//     arrayOfData.forEach((obj) => {
+//         clutter += `<div class="heroImg"><img src="${obj.image}"
+//         alt=""></div>`
+//     })
+//     console.log(clutter)
+//     hero.innerHTML = clutter
+// }
 
-showTheCards();
+// showTheCards();
 
 const search = document.querySelector(".search input")
 const overlay = document.querySelector(".overlay")
@@ -103,8 +103,11 @@ search.addEventListener("input", () => {
     find.innerHTML = clutter
 })
 
+const imgOne = document.querySelector("#imgOne");
 
-
+imgOne.addEventListener("click", () => {
+    window.location.href = `newPage.html`
+})
 
 
 
