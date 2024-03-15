@@ -44,7 +44,8 @@ const arrayOfData = [
     { name: "Matte Laptop Wallpaper", image: "https://i.pinimg.com/564x/46/95/ab/4695ab2e031f45be1a1a2f2dbe722826.jpg" },
     { name: "Aesthetic Train", image: "https://i.pinimg.com/564x/53/56/c8/5356c8751aa24fe26908f6bd8b8666c3.jpg" },
     { name: "Ocean", image: "https://i.pinimg.com/564x/70/ae/15/70ae151b9bd3966ebe9a8644f4d51bcb.jpg" },
-    { name: "Spiderman", image: "https://i.pinimg.com/564x/41/06/22/4106221d069094eef9eed3df3c44f7f3.jpg" }
+    { name: "Spiderman", image: "https://i.pinimg.com/564x/41/06/22/4106221d069094eef9eed3df3c44f7f3.jpg" },
+    { name: "Headphone", image: "https://i.pinimg.com/564x/2e/b8/72/2eb872769a1726d4ed6b433f4f31b3b5.jpg"}
 ]
 
 function showTheCards() {
@@ -57,11 +58,6 @@ function showTheCards() {
     hero.innerHTML = clutter
 }
 
-function handleSearch() {
-
-}
-
-handleSearch();
 showTheCards();
 
 const search = document.querySelector(".search input")
