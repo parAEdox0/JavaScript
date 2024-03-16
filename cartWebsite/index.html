@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main text-black min-h-[100vh] relative">
+        <div
+            class="nav h-[13vh] w-[100%] bg-[#c8c9d6] drop-shadow-lg shadow-black flex justify-between items-center fixed z-20 px-11">
+            <img class="h-[3vh] w-[120px]"
+                src="https://imgs.search.brave.com/RQooEAbupJqtr81MO5Tq_6TyzJpYfCXPeTMT3l5PdPg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9kdDJz/ZGYwZGI4em9iLmNs/b3VkZnJvbnQubmV0/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzAyL2ZpdmVyci5w/bmc"
+                alt="" id="logo">
+            <div class="home text-xl text-center font-bold relative">
+                Home
+                <div class="underline h-[3px] w-[2vw] bg-black rounded-xl">
+                </div>
+            </div>
+            <div class="cart text-xl font-extrabold w-[120px] relative">
+                <div id="navCounter"
+                    class="hidden count bg-red-600 absolute text-[10px] rounded-[50%] text-white py-[0.1px] px-[10px] bottom-3 left-3">
+                    0
+                </div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <div class="hero min-h-[100vh] w-[100%] absolute top-[13vh] left-0 z-10 flex flex-col items-center pt-[80px]">
+            <h1 class="heroHeading text-[55px] text-[] font-[700]">
+                Featured Products
+            </h1>
+            <p class="pt-[20px] text-[20px] text-gray-900 mb-[60px]">Summer Collection New Modern Design</p>
+            <div class="products columns-4 row-auto">
+                <div class="item mr-[30px] p-3 border-solid border-2 border-[#dddcdc] rounded-[20px]">
+                    <div class="itemImg">
+                        <img class="h-[300px] rounded-[13px]"
+                            src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/f1.jpg"
+                            alt="">
+                    </div>
+                    <div class="itemBrand pt-2 text-gray-600">
+                        Adidas
+                    </div>
+                    <div class="itemName text-[20px] font-[750]">
+                        Patterened Cotton Shirt
+                    </div>
+                    <div class="flex justify-between items-center p-2">
+                        <div class="itemPrice text-[20px] font-[700] text-[teal]">
+                            9.9$
+                        </div>
+                        <div id="itemCart" class="addToCart">
+                            <i
+                                class="fa-solid fa-cart-shopping bg-[#ccf5d4] cursor-pointer p-3 rounded-[50%] text-[teal] text-[20px]"></i>
+                        </div>
+                        <div class="cartControls mt-[11px] items-center gap-[8px] hidden">
+                            <button class="px-3 py-1 bg-green-400 rounded-[50%] plus">+</button>
+                            <p class="text-[20px]">0</p><button
+                                class="px-3 py-1 bg-red-400 rounded-[50%] minus">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item my-[30px] mr-[30px] p-3 border-solid border-2 border-[#dddcdc] rounded-[20px]">
+                    <div class="itemImg">
+                        <img class="h-[300px] rounded-[13px]"
+                            src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/f1.jpg"
+                            alt="">
+                    </div>
+                    <div class="itemBrand pt-2 text-gray-600">
+                        Adidas
+                    </div>
+                    <div class="itemName text-[20px] font-[750]">
+                        Patterened Cotton Shirt
+                    </div>
+                    <div class="flex justify-between items-center p-2">
+                        <div class="itemPrice text-[20px] font-[700] text-[teal]">
+                            9.9$
+                        </div>
+                        <div id="itemCart" class="addToCart">
+                            <i
+                                class="fa-solid fa-cart-shopping bg-[#ccf5d4] cursor-pointer p-3 rounded-[50%] text-[teal] text-[20px]"></i>
+                        </div>
+                        <div class="cartControls mt-[11px] items-center gap-[8px] hidden">
+                            <button class="px-3 py-1 bg-green-400 rounded-[50%] plus">+</button>
+                            <p class="text-[20px]">0</p><button
+                                class="px-3 py-1 bg-red-400 rounded-[50%] minus">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item my-[30px] mr-[30px] p-3 border-solid border-2 border-[#dddcdc] rounded-[20px]">
+                    <div class="itemImg">
+                        <img class="h-[300px] rounded-[13px]"
+                            src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/f1.jpg"
+                            alt="">
+                    </div>
+                    <div class="itemBrand pt-2 text-gray-600">
+                        Adidas
+                    </div>
+                    <div class="itemName text-[20px] font-[750]">
+                        Patterened Cotton Shirt
+                    </div>
+                    <div class="flex justify-between items-center p-2">
+                        <div class="itemPrice text-[20px] font-[700] text-[teal]">
+                            9.9$
+                        </div>
+                        <div id="itemCart" class="addToCart">
+                            <i
+                                class="fa-solid fa-cart-shopping bg-[#ccf5d4] cursor-pointer p-3 rounded-[50%] text-[teal] text-[20px]"></i>
+                        </div>
+                        <div class="cartControls mt-[11px] items-center gap-[8px] hidden">
+                            <button class="px-3 py-1 bg-green-400 rounded-[50%] plus">+</button>
+                            <p class="text-[20px]">0</p><button
+                                class="px-3 py-1 bg-red-400 rounded-[50%] minus">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item my-[30px] mr-[30px] p-3 border-solid border-2 border-[#dddcdc] rounded-[20px]">
+                    <div class="itemImg">
+                        <img class="h-[300px] rounded-[13px]"
+                            src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/f1.jpg"
+                            alt="">
+                    </div>
+                    <div class="itemBrand pt-2 text-gray-600">
+                        Adidas
+                    </div>
+                    <div class="itemName text-[20px] font-[750]">
+                        Patterened Cotton Shirt
+                    </div>
+                    <div class="flex justify-between items-center p-2">
+                        <div class="itemPrice text-[20px] font-[700] text-[teal]">
+                            9.9$
+                        </div>
+                        <div id="itemCart" class="addToCart">
+                            <i
+                                class="fa-solid fa-cart-shopping bg-[#ccf5d4] cursor-pointer p-3 rounded-[50%] text-[teal] text-[20px]"></i>
+                        </div>
+                        <div class="cartControls mt-[11px] items-center gap-[8px] hidden">
+                            <button class="px-3 py-1 bg-green-400 rounded-[50%] plus">+</button>
+                            <p class="text-[20px]">0</p><button
+                                class="px-3 py-1 bg-red-400 rounded-[50%] minus">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item my-[30px] mr-[30px] p-3 border-solid border-2 border-[#dddcdc] rounded-[20px]">
+                    <div class="itemImg">
+                        <img class="h-[300px] rounded-[13px]"
+                            src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/f1.jpg"
+                            alt="">
+                    </div>
+                    <div class="itemBrand pt-2 text-gray-600">
+                        Adidas
+                    </div>
+                    <div class="itemName text-[20px] font-[750]">
+                        Patterened Cotton Shirt
+                    </div>
+                    <div class="flex justify-between items-center p-2">
+                        <div class="itemPrice text-[20px] font-[700] text-[teal]">
+                            9.9$
+                        </div>
+                        <div id="itemCart" class="addToCart">
+                            <i
+                                class="fa-solid fa-cart-shopping bg-[#ccf5d4] cursor-pointer p-3 rounded-[50%] text-[teal] text-[20px]"></i>
+                        </div>
+                        <div class="cartControls mt-[11px] items-center gap-[8px] hidden">
+                            <button class="px-3 py-1 bg-green-400 rounded-[50%] plus">+</button>
+                            <p class="text-[20px]">0</p><button
+                                class="px-3 py-1 bg-red-400 rounded-[50%] minus">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item my-[30px] mr-[30px] p-3 border-solid border-2 border-[#dddcdc] rounded-[20px]">
+                    <div class="itemImg">
+                        <img class="h-[300px] rounded-[13px]"
+                            src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/f1.jpg"
+                            alt="">
+                    </div>
+                    <div class="itemBrand pt-2 text-gray-600">
+                        Adidas
+                    </div>
+                    <div class="itemName text-[20px] font-[750]">
+                        Patterened Cotton Shirt
+                    </div>
+                    <div class="flex justify-between items-center p-2">
+                        <div class="itemPrice text-[20px] font-[700] text-[teal]">
+                            9.9$
+                        </div>
+                        <div id="itemCart" class="addToCart">
+                            <i
+                                class="fa-solid fa-cart-shopping bg-[#ccf5d4] cursor-pointer p-3 rounded-[50%] text-[teal] text-[20px]"></i>
+                        </div>
+                        <div class="cartControls mt-[11px] items-center gap-[8px] hidden">
+                            <button class="px-3 py-1 bg-green-400 rounded-[50%] plus">+</button>
+                            <p class="text-[20px]">0</p><button
+                                class="px-3 py-1 bg-red-400 rounded-[50%] minus">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item my-[30px] mr-[30px] p-3 border-solid border-2 border-[#dddcdc] rounded-[20px]">
+                    <div class="itemImg">
+                        <img class="h-[300px] rounded-[13px]"
+                            src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/f1.jpg"
+                            alt="">
+                    </div>
+                    <div class="itemBrand pt-2 text-gray-600">
+                        Adidas
+                    </div>
+                    <div class="itemName text-[20px] font-[750]">
+                        Patterened Cotton Shirt
+                    </div>
+                    <div class="flex justify-between items-center p-2">
+                        <div class="itemPrice text-[20px] font-[700] text-[teal]">
+                            9.9$
+                        </div>
+                        <div id="itemCart" class="addToCart">
+                            <i
+                                class="fa-solid fa-cart-shopping bg-[#ccf5d4] cursor-pointer p-3 rounded-[50%] text-[teal] text-[20px]"></i>
+                        </div>
+                        <div class="cartControls mt-[11px] items-center gap-[8px] hidden">
+                            <button class="px-3 py-1 bg-green-400 rounded-[50%] plus">+</button>
+                            <p class="text-[20px]">0</p><button
+                                class="px-3 py-1 bg-red-400 rounded-[50%] minus">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item my-[30px] mr-[30px] p-3 border-solid border-2 border-[#dddcdc] rounded-[20px]">
+                    <div class="itemImg">
+                        <img class="h-[300px] rounded-[13px]"
+                            src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/products/f1.jpg"
+                            alt="">
+                    </div>
+                    <div class="itemBrand pt-2 text-gray-600">
+                        Adidas
+                    </div>
+                    <div class="itemName text-[20px] font-[750]">
+                        Patterened Cotton Shirt
+                    </div>
+                    <div class="flex justify-between items-center p-2">
+                        <div class="itemPrice text-[20px] font-[700] text-[teal]">
+                            9.9$
+                        </div>
+                        <div id="itemCart" class="addToCart">
+                            <i
+                                class="fa-solid fa-cart-shopping bg-[#ccf5d4] cursor-pointer p-3 rounded-[50%] text-[teal] text-[20px]"></i>
+                        </div>
+                        <div class="cartControls mt-[11px] items-center gap-[8px] hidden">
+                            <button class="px-3 py-1 bg-green-400 rounded-[50%] plus">+</button>
+                            <p class="text-[20px]">0</p><button
+                                class="px-3 py-1 bg-red-400 rounded-[50%] minus">-</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
