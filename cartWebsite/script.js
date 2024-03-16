@@ -33,6 +33,7 @@ let itemList = [
 function displayItems(){
     var innerContent = ""
     itemList.forEach((item) => {
+        
         innerContent += `<div class="item flex flex-col items-center mr-[30px] p-3 border-solid border-2 border-[#dddcdc] rounded-[20px]">
         <div class="itemImg" h-[30vh] w-[20vw]>
             <img class="h-[300px] w-[90%] rounded-[13px]"
