@@ -4,103 +4,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pinterest</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/174/174863.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pinterest</title>
 </head>
 
 <body>
-    <div class="main">
-        <div class="nav">
-            <div class="logo">
-                <img src="https://static-00.iconduck.com/assets.00/pinterest-icon-993x1024-es54qfmd.png">
+
+    <!-- //main div -->
+    <div class="main min-h-[100vh] relative">
+
+        <!-- //nav starts here -->
+        <div class="nav h-[7vh] w-[100%] bg-white z-50 fixed flex justify-between items-center px-[20px]">
+
+            <!-- logo -->
+            <img src="https://static-00.iconduck.com/assets.00/pinterest-icon-993x1024-es54qfmd.png" alt=""
+                class="logo h-[30px] mr-2">
+
+            <!-- input  -->
+            <div class="navInput bg-gray-200 px-4 py-3 rounded-[25px] w-[60vw] flex gap-[15px] items-center">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="#navInput" class="w-[30vw] bg-gray-200 focus:outline-none" placeholder="Search">
             </div>
-            <div class="home">
-                <ul>
-                    <li class="ulOne bgBlack">Home</li>
-                    <li class="ulTwo">Explore</li>
-                    <li class="ulThree">Create</li>
-                </ul>
+
+            <!-- profile  -->
+            <img src="https://i.pinimg.com/75x75_RS/7d/34/78/7d34784e7d47230c5d4fb147d58d56cc.jpg" alt=""
+                class="profile h-[45px]">
+
+        </div>
+        <!-- //nav ends here -->
+
+
+        <!-- hero section starts here -->
+        <div class="hero flex flex-col items-center absolute min-h-[100vh] w-[100%] top-[7vh]">
+
+            <!-- products -->
+            <div class="products columns-2 sm:columns-4 md:columns-5 lg:columns-6 px-3 sm:px-5 mt-3">
+
+                <!-- items -->
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/aa/eb/fe/aaebfea32a329788cf3b4f3d181d81a6.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/b9/bc/c4/b9bcc4cf09bf3e2a59db3e0485dd66aa.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/2f/e9/c5/2fe9c5ccdae654bbe538e966f0b80ce9.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/62/66/67/626667d699fc4d3d7bc2c80315ce0c08.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/2e/c8/ec/2ec8ec56c104947dd3f3083bfbaba174.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/64/ce/aa/64ceaa6f4e4524db4790ede22d4259ac.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/36/bd/76/36bd76bc55cfb3f35225aae064b37c19.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/736x/e2/24/52/e224520bf63488fc66c81391b312fe80.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/66/4c/69/664c691f058f955f8a8ce4c85d8014e2.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/ae/4f/fb/ae4ffbf9bd35689b133b65a8efad042b.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/8f/6a/fe/8f6afee23e4dfc8fa9c8d9b120cb6a87.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/66/cc/bd/66ccbd41ae3fc974dd088196e05a1829.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/be/05/d5/be05d5a544c73053f9506da459a5c207.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/41/98/c1/4198c1454f9f690fa1dc0844ceaab93e.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/86/a9/ce/86a9ce945024a5bf13ffb236805ce5f6.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/e3/a8/6b/e3a86be66e0fa121e31ae0152e3e87a3.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/70/dd/a4/70dda4514a824b1eb35d13cc912e75d2.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/88/7b/78/887b78ec8030ca4a43b0078620e2d749.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/46/95/ab/4695ab2e031f45be1a1a2f2dbe722826.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/53/56/c8/5356c8751aa24fe26908f6bd8b8666c3.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/70/ae/15/70ae151b9bd3966ebe9a8644f4d51bcb.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/41/06/22/4106221d069094eef9eed3df3c44f7f3.jpg" alt="">
+                <img class="rounded-lg mb-3"
+                    src="https://i.pinimg.com/564x/2e/b8/72/2eb872769a1726d4ed6b433f4f31b3b5.jpg" alt="">
+
+
+
             </div>
-            <div class="search">
-                <div class="searchLeft">
-                    <i class="ri-search-line"></i>
-                    <input type="text" placeholder="Search Pizza, 3d Designs or what not...">
+
+            <!-- overlay  -->
+            <div class="overlay h-[100%] w-[100%] bg-[#000000cc] absolute hidden"></div>
+
+            <!-- search  -->
+            <div
+                class="search absolute min-h-[5vh] rounded-b-[10px] bg-white w-[100%] justify-center border-2 border-gray-200 hidden text-[18px]">
+
+                <!-- search elements  -->
+                <div class="flex items-center px-4 py-3 gap-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <p>Search Anything you like</p>
                 </div>
+
+                <div class="flex items-center px-4 py-3 gap-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <p>Or curious about</p>
+                </div>
+
             </div>
-            <img class="ri" src="./assets/bell.png" alt="">
-            <img class="ri riTwo" src="./assets/comment.png" alt="">
-            <img class="ri riThree" src="https://i.pinimg.com/75x75_RS/7d/34/78/7d34784e7d47230c5d4fb147d58d56cc.jpg"
-                alt="">
-            <i class="ri-arrow-down-s-line"></i>
+
         </div>
 
-        <div class="overlay">
-        </div>
 
-        <div class="hero">
-            <div class="heroImg" id="imgOne"><img
-                    src="https://i.pinimg.com/564x/aa/eb/fe/aaebfea32a329788cf3b4f3d181d81a6.jpg" alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/b9/bc/c4/b9bcc4cf09bf3e2a59db3e0485dd66aa.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/2f/e9/c5/2fe9c5ccdae654bbe538e966f0b80ce9.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/62/66/67/626667d699fc4d3d7bc2c80315ce0c08.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/2e/c8/ec/2ec8ec56c104947dd3f3083bfbaba174.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/64/ce/aa/64ceaa6f4e4524db4790ede22d4259ac.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/36/bd/76/36bd76bc55cfb3f35225aae064b37c19.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/736x/e2/24/52/e224520bf63488fc66c81391b312fe80.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/66/4c/69/664c691f058f955f8a8ce4c85d8014e2.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/ae/4f/fb/ae4ffbf9bd35689b133b65a8efad042b.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/8f/6a/fe/8f6afee23e4dfc8fa9c8d9b120cb6a87.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/66/cc/bd/66ccbd41ae3fc974dd088196e05a1829.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/be/05/d5/be05d5a544c73053f9506da459a5c207.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/41/98/c1/4198c1454f9f690fa1dc0844ceaab93e.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/86/a9/ce/86a9ce945024a5bf13ffb236805ce5f6.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/e3/a8/6b/e3a86be66e0fa121e31ae0152e3e87a3.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/70/dd/a4/70dda4514a824b1eb35d13cc912e75d2.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/88/7b/78/887b78ec8030ca4a43b0078620e2d749.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/46/95/ab/4695ab2e031f45be1a1a2f2dbe722826.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/53/56/c8/5356c8751aa24fe26908f6bd8b8666c3.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/70/ae/15/70ae151b9bd3966ebe9a8644f4d51bcb.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/41/06/22/4106221d069094eef9eed3df3c44f7f3.jpg"
-                    alt=""></div>
-            <div class="heroImg"><img src="https://i.pinimg.com/564x/2e/b8/72/2eb872769a1726d4ed6b433f4f31b3b5.jpg"
-                    alt=""></div>
-        </div>
 
-        <div class="find">
-            <div class="findInput">
-                <i class="ri-search-line"></i>
-                <p>Search Anything</p>
-            </div>
-            <div class="findInput">
-                <i class="ri-search-line"></i>
-                <p>You like or are curious about :)</p>
-            </div>
-        </div>
+    </div>
+    </div>
 
-        <script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
